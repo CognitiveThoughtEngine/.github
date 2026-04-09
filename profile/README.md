@@ -49,11 +49,11 @@ Submitted comment to [NIST CAISI](https://www.nist.gov/artificial-intelligence) 
 
 **[The Constitutional Enterprise](https://cognitivethoughtengine.com/blog/)** — 8-part series on building AI organizations with enforceable governance:
 
-- [The Strategy Gap Nobody Is Talking About](https://cognitivethoughtengine.com/blog/strategy-gap-nobody-talking-about.html)
+- [The Strategy Gap Nobody Is Talking About](https://cognitivethoughtengine.com/blog/ai-governance-strategy-gap-nobody-talking-about.html)
 - [Hard Constraints, Not Policies](https://cognitivethoughtengine.com/blog/hard-constraints-not-policies.html)
 - [The Six-Gate Architecture](https://cognitivethoughtengine.com/blog/six-gate-architecture.html)
 - [WHO vs. HOW: The AI Agent Governance Gap](https://cognitivethoughtengine.com/blog/who-vs-how-ai-agent-governance-gap.html)
-- [Glasswing Governs Access. Constitutional Governance Governs Action.](https://cognitivethoughtengine.com/blog/glasswing-governs-access-constitutional-governance-governs-action.html)
+- [Glasswing Governs Access. Constitutional Governance Governs Action.](https://cognitivethoughtengine.com/blog/glasswine-governs-access-constitutional-governance-governs-action.html)
 
 ---
 
