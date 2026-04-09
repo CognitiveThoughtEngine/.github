@@ -1,6 +1,6 @@
 # Cognitive Thought Engine
 
-**Constitutional governance for autonomous AI agents.**
+**Building the WHY governance layer for autonomous AI agents.**
 
 Most AI agent frameworks answer two questions:  
 **WHO** is authorized to act. **HOW** behavior is enforced at runtime.  
@@ -16,12 +16,16 @@ We build the third layer — **WHY** an agent does what it does.
 
 ## Open Source
 
-### [constitutional-agent](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance)
-The WHY layer for AI agent governance. Six constitutional gates, hard constraints that no agent action can override, and a self-amendment protocol.
+### [constitutional-agent-governance](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance)
+
+The WHY governance layer for autonomous AI. Six constitutional gates, 12 hard constraints no agent can override, and a self-amendment protocol — extracted from 95 days of live autonomous operation.
 
 ```bash
 pip install constitutional-agent
 ```
+
+[![PyPI](https://img.shields.io/pypi/v/constitutional-agent)](https://pypi.org/project/constitutional-agent/)
+[![CI](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance/actions/workflows/tests.yml/badge.svg)](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance/actions)
 
 ---
 
@@ -37,10 +41,28 @@ Five peer-reviewed preprints on constitutional AI governance:
 | Constitutional Governance Harness | [10.5281/zenodo.19343034](https://doi.org/10.5281/zenodo.19343034) |
 | Community Security | [10.5281/zenodo.19343108](https://doi.org/10.5281/zenodo.19343108) |
 
-Acknowledged by [NIST CAISI](https://www.nist.gov/artificial-intelligence) (2026).
+Submitted comment to [NIST CAISI](https://www.nist.gov/artificial-intelligence) on NIST 800-2 and Agent Identity frameworks (2026). Acknowledged.
+
+---
+
+## Writing
+
+**[The Constitutional Enterprise](https://cognitivethoughtengine.com/blog/)** — 8-part series on building AI organizations with enforceable governance:
+
+- [The Strategy Gap Nobody Is Talking About](https://cognitivethoughtengine.com/blog/strategy-gap-nobody-talking-about.html)
+- [Hard Constraints, Not Policies](https://cognitivethoughtengine.com/blog/hard-constraints-not-policies.html)
+- [The Six-Gate Architecture](https://cognitivethoughtengine.com/blog/six-gate-architecture.html)
+- [WHO vs. HOW: The AI Agent Governance Gap](https://cognitivethoughtengine.com/blog/who-vs-how-ai-agent-governance-gap.html)
+- [Glasswing Governs Access. Constitutional Governance Governs Action.](https://cognitivethoughtengine.com/blog/glasswing-governs-access-constitutional-governance-governs-action.html)
+
+---
+
+## Product
+
+[**cognitivethoughtengine.com**](https://cognitivethoughtengine.com) — Decision Load Index (DLI): measure cognitive overload in teams and individuals. Used by 883+ professionals.
 
 ---
 
 ## Contact
 
-[cognitivethoughtengine.com](https://cognitivethoughtengine.com) · Constitutional Governance Review: mike@cognitivethoughtengine.com
+Constitutional Governance Review: mike@cognitivethoughtengine.com
