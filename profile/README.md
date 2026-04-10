@@ -75,4 +75,4 @@ Constitutional Governance Review: mike@cognitivethoughtengine.com
 
 ---
 
-*Also: [cognitivethoughtengine.com](https://www.cognitivethoughtengine.com) — DLI cognitive measurement product, 883+ users.*
+*The governance architecture in `constitutional-agent` was extracted from 95 days of live operation of [cognitivethoughtengine.com](https://www.cognitivethoughtengine.com) — a Decision Load Index product running 52 agents under constitutional governance. The product is the applied research context; this library is what we learned.*
