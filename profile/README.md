@@ -41,8 +41,8 @@ AI agent governance has three structurally distinct layers. The first two are we
 
 ## Proof
 
-- 97 days of live autonomous operation in production
-- 52 agents/cycle operating under constitutional governance
+- 98 days of live autonomous operation in production
+- 56 registered agents, 40 active per cycle
 - 64 constitutional amendments ratified through formal process
 - NIST CAISI acknowledged in two submissions (800-2 + Agent Identity)
 - 5 peer-reviewed preprints on Zenodo
@@ -68,4 +68,4 @@ Acknowledged by [NIST CAISI](https://www.nist.gov/artificial-intelligence) (2026
 
 Constitutional Governance Review: research@cognitivethoughtengine.com
 
-*The governance architecture in `constitutional-agent` was extracted from live operation of [cognitivethoughtengine.com](https://www.cognitivethoughtengine.com) — a Decision Load Index product running 52 agents under constitutional governance.*
+*The governance architecture in `constitutional-agent` was extracted from live operation of [cognitivethoughtengine.com](https://www.cognitivethoughtengine.com) — a Decision Load Index product running 56 registered agents under constitutional governance.*
