@@ -10,7 +10,7 @@ Most AI agent frameworks answer two questions: **WHO** is authorized to act and 
 
 - **[constitutional-agent](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance)** — install the package: `pip install constitutional-agent`
 - **[WHO vs HOW: the AI agent governance gap](https://www.cteinvest.com/blog/who-vs-how-ai-agent-governance-gap.html)** — the architecture problem this solves
-- **[Constitutional Governance Review](https://www.cteinvest.com/blog/constitutional-agent-open-source-why-layer-governance.html#assessment)** — 2-hour assessment, written report, top gaps + roadmap: mike@cognitivethoughtengine.com
+- **[Constitutional Governance Review](https://www.cteinvest.com/blog/constitutional-agent-open-source-why-layer-governance.html#assessment)** — 2-hour assessment, written report, top gaps + roadmap: research@cognitivethoughtengine.com
 
 ---
 
@@ -34,16 +34,32 @@ WHO governance gets the agent through the door. HOW governance enforces the rule
 
 ### [constitutional-agent-governance](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance)
 
-The WHY governance layer for autonomous AI. Six constitutional gates, 12 hard constraints no agent can override, and a self-amendment protocol — extracted from 95 days of live autonomous operation.
+The WHY governance layer for autonomous AI. Six constitutional gates, 12 hard constraints no agent can override, and a self-amendment protocol — extracted from 95 days of live autonomous operation. Self-assessed at **63/100** against the CGST framework (ungoverned baseline: 6/100).
 
 ```bash
 pip install constitutional-agent
 ```
 
 [![Tests](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance/actions/workflows/tests.yml/badge.svg)](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance/actions/workflows/tests.yml)
-[![PyPI](https://img.shields.io/badge/pypi-v0.4.0b3-blue)](https://pypi.org/project/constitutional-agent/)
+[![PyPI](https://img.shields.io/badge/pypi-v0.4.0-blue)](https://pypi.org/project/constitutional-agent/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance/blob/main/LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+
+### [cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework)
+
+Open scoring methodology for the Constitutional AI Governance Stress Test. Six layers (WHO, HOW, WHY, ECONOMIC, AUTONOMY, INTEGRITY), 100 points, full rubric in YAML and Markdown. Run it on your own agent system before engaging a paid assessment.
+
+### [dli-instrument](https://github.com/CognitiveThoughtEngine/dli-instrument)
+
+The Decision Load Index — a 10-question cognitive load assessment for AI-augmented workplaces. Normative data from 901 users. Validated against the Zenodo preprint.
+
+```bash
+pip install dli-instrument
+```
+
+### [agentic-governance-papers](https://github.com/CognitiveThoughtEngine/agentic-governance-papers)
+
+Research hub for all published and in-progress work on constitutional AI governance. Five Zenodo preprints, full BibTeX citations, NIST engagement documentation.
 
 ---
 
@@ -71,7 +87,7 @@ pip install constitutional-agent
 
 ## Contact
 
-Constitutional Governance Review: mike@cognitivethoughtengine.com
+Constitutional Governance Review: research@cognitivethoughtengine.com
 
 ---
 
