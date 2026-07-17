@@ -26,13 +26,15 @@ AI agent governance has three structurally distinct layers. The first two are we
 
 `constitutional-agent` complements identity and policy tools — it governs decision quality *after* the agent is authorized and the action is policy-compliant, covering the scenarios your policy writers haven't written rules for yet.
 
+**What no one else ships: cross-session risk composition.** Every vendor-neutral governance engine (Microsoft ACS, Galileo, Runlayer, NVIDIA OpenShell) scores each action in isolation and forgets it — so an agent can pass every individual gate and still be dangerous over a sequence. As of v0.6.0, `constitutional-agent` accumulates risk across decisions and sessions and escalates on the *trajectory*, catching what stateless gating can't. That is the differentiated edge of governing **delegated autonomous authority**.
+
 ---
 
 ## Portfolio
 
 | Repo | Purpose | Install |
 |------|---------|---------|
-| [constitutional-agent-governance](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance) | Runtime governance library — six gates, 12 hard constraints, EU AI Act Art. 27 FRIA evidence | `pip install constitutional-agent` |
+| [constitutional-agent-governance](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance) | Runtime governance library — six gates, 12 hard constraints, cross-session risk composition (v0.6.0), EU AI Act Art. 27 FRIA evidence | `pip install constitutional-agent` |
 | [cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework) | Open scoring methodology — six layers, 100 points, YAML rubric, report template | Run on your system |
 | [dli-instrument](https://github.com/CognitiveThoughtEngine/dli-instrument) | Human-side measurement — 10-question cognitive load assessment for AI-augmented workplaces | `pip install dli-instrument` |
 | [agentic-governance-papers](https://github.com/CognitiveThoughtEngine/agentic-governance-papers) | Research hub — 5 preprints, 3 drafts, CITATIONS.bib, NIST submissions | Reference |
