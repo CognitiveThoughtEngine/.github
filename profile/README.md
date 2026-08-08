@@ -10,7 +10,7 @@
 |-|-|
 | **[constitutional-agent](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance)** | The runtime library. Six constitutional gates, 12 hard constraints enforced in code. `pip install constitutional-agent` |
 | **[cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework)** | The assessment tool. Score your agent system across six governance layers before the first incident. |
-| **[agentic-governance-papers](https://github.com/CognitiveThoughtEngine/agentic-governance-papers)** | The research base. Five peer-reviewed preprints, full citations, NIST engagement docs. |
+| **[agentic-governance-papers](https://github.com/CognitiveThoughtEngine/agentic-governance-papers)** | The research base. Five preprints with assigned DOIs, full citations, NIST engagement docs. |
 
 ---
 
@@ -26,7 +26,7 @@ AI agent governance has three structurally distinct layers. The first two are we
 
 `constitutional-agent` complements identity and policy tools — it governs decision quality *after* the agent is authorized and the action is policy-compliant, covering the scenarios your policy writers haven't written rules for yet.
 
-**What no one else ships: cross-session risk composition.** Every vendor-neutral governance engine (Microsoft ACS, Galileo, Runlayer, NVIDIA OpenShell) scores each action in isolation and forgets it — so an agent can pass every individual gate and still be dangerous over a sequence. As of v0.6.0, `constitutional-agent` accumulates risk across decisions and sessions and escalates on the *trajectory*, catching what stateless gating can't. That is the differentiated edge of governing **delegated autonomous authority**.
+**Cross-session risk composition.** We have not found another vendor-neutral governance engine that accumulates risk across decisions and sessions rather than scoring each action in isolation. The ones surveyed as of 2026-08 (Microsoft ACS, Galileo, Runlayer, NVIDIA OpenShell) score each action and forget it, so an agent can pass every individual gate and still be dangerous over a sequence. As of v0.6.0, `constitutional-agent` accumulates risk across decisions and sessions and escalates on the *trajectory*, catching what stateless gating can't. That is the differentiated edge of governing **delegated autonomous authority**.
 
 ---
 
@@ -47,7 +47,7 @@ AI agent governance has three structurally distinct layers. The first two are we
 - 56 registered agents, 40 active per cycle
 - 64 constitutional amendments ratified through formal process
 - NIST CAISI acknowledged in two submissions (800-2 + Agent Identity)
-- 5 peer-reviewed preprints on Zenodo
+- 5 DOI-assigned preprints on Zenodo (preprints, not peer-reviewed)
 - Self-assessed against CGST framework: **63/100** (ungoverned baseline: 6/100)
 
 ---
