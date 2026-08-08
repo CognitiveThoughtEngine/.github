@@ -9,6 +9,7 @@
 | | |
 |-|-|
 | **[constitutional-agent](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance)** | The runtime library. Six constitutional gates, 12 hard constraints enforced in code. `pip install constitutional-agent` |
+| **[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** | The adversarial proof. 603 executable tests against MCP, A2A, x402/L402, decision governance — validates the gates actually hold under attack. |
 | **[cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework)** | The assessment tool. Score your agent system across six governance layers before the first incident. |
 | **[agentic-governance-papers](https://github.com/CognitiveThoughtEngine/agentic-governance-papers)** | The research base. Five preprints with assigned DOIs, full citations, NIST engagement docs. |
 
@@ -35,6 +36,7 @@ AI agent governance has three structurally distinct layers. The first two are we
 | Repo | Purpose | Install |
 |------|---------|---------|
 | [constitutional-agent-governance](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance) | Runtime governance library — six gates, 12 hard constraints, cross-session risk composition (v0.6.0), EU AI Act Art. 27 FRIA evidence | `pip install constitutional-agent` |
+| [red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric) *(companion project, personal account)* | Adversarial test harness — 603 executable tests, commit-pinned OWASP Agentic v1.1 T1-T17 coverage (13 direct, 4 partial, 0 not evidenced), AIUC-1 crosswalk 19/20 testable, NIST AI 800-2 aligned | Clone and run |
 | [cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework) | Open scoring methodology — six layers, 100 points, YAML rubric, report template | Run on your system |
 | [dli-instrument](https://github.com/CognitiveThoughtEngine/dli-instrument) | Human-side measurement — 10-question cognitive load assessment for AI-augmented workplaces | `pip install dli-instrument` |
 | [agentic-governance-papers](https://github.com/CognitiveThoughtEngine/agentic-governance-papers) | Research hub — 5 preprints, 3 drafts, CITATIONS.bib, NIST submissions | Reference |
@@ -43,9 +45,12 @@ AI agent governance has three structurally distinct layers. The first two are we
 
 ## Proof
 
-- 98 days of live autonomous operation in production
-- 56 registered agents, 40 active per cycle
-- 64 constitutional amendments ratified through formal process
+*Live-verified 2026-08-08 — numbers below are a point-in-time snapshot, not evergreen; re-check before citing if this date is old.*
+
+- 217 days of live autonomous operation in production
+- 54 registered agents, 48 active in the last 24 hours
+- 75+ constitutional amendments ratified through formal process
+- 603 adversarial tests in the companion security harness (25 stars, 5 forks)
 - NIST CAISI acknowledged in two submissions (800-2 + Agent Identity)
 - 5 DOI-assigned preprints on Zenodo (preprints, not peer-reviewed)
 - Self-assessed against CGST framework: **63/100** (ungoverned baseline: 6/100)
@@ -70,4 +75,4 @@ Acknowledged by [NIST CAISI](https://www.nist.gov/artificial-intelligence) (2026
 
 Constitutional Governance Review: research@cognitivethoughtengine.com
 
-*The governance architecture in `constitutional-agent` was extracted from live operation of [cognitivethoughtengine.com](https://www.cognitivethoughtengine.com) — a Decision Load Index product running 56 registered agents under constitutional governance.*
+*The governance architecture in `constitutional-agent` was extracted from live operation of [cognitivethoughtengine.com](https://www.cognitivethoughtengine.com) — a Decision Load Index product running 54 registered agents under constitutional governance.*
