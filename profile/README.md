@@ -28,7 +28,7 @@ AI agent governance has three structurally distinct layers. The first two are we
 
 `constitutional-agent` complements identity and policy tools — it governs decision quality *after* the agent is authorized and the action is policy-compliant, covering the scenarios your policy writers haven't written rules for yet.
 
-**Cross-session risk composition.** We have not found another vendor-neutral governance engine that accumulates risk across decisions and sessions rather than scoring each action in isolation. The ones surveyed as of 2026-08 (Microsoft ACS, Galileo, Runlayer, NVIDIA OpenShell) score each action and forget it, so an agent can pass every individual gate and still be dangerous over a sequence. As of v0.6.0, `constitutional-agent` accumulates risk across decisions and sessions and escalates on the *trajectory*, catching what stateless gating can't. That is the differentiated edge of governing **delegated autonomous authority**.
+**Cross-session risk composition.** We have not found another vendor-neutral governance engine that accumulates risk across decisions and sessions rather than scoring each action in isolation. In the materials reviewed as of 2026-08 (Microsoft ACS, Galileo, Runlayer, NVIDIA OpenShell) we did not identify documented cross-session aggregate-risk decisioning, so on the published evidence an agent can pass every individual gate and still be dangerous over a sequence. As of v0.6.0, `constitutional-agent` accumulates risk across decisions and sessions and escalates on the *trajectory*, catching what stateless gating can't. That is the differentiated edge of governing **delegated autonomous authority**.
 
 ---
 
@@ -68,7 +68,7 @@ AI agent governance has three structurally distinct layers. The first two are we
 | Constitutional Governance Harness | [10.5281/zenodo.19343034](https://doi.org/10.5281/zenodo.19343034) |
 | Community Security Governance | [10.5281/zenodo.19343108](https://doi.org/10.5281/zenodo.19343108) |
 
-Acknowledged by [NIST CAISI](https://www.nist.gov/artificial-intelligence) (2026).
+[NIST CAISI](https://www.nist.gov/artificial-intelligence) acknowledged receipt of two CTE public-comment submissions in 2026. This does not constitute endorsement of CTE's papers or frameworks.
 
 ---
 
