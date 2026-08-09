@@ -36,7 +36,7 @@ AI agent governance has three structurally distinct layers. The first two are we
 
 | Repo | Purpose | Install |
 |------|---------|---------|
-| [constitutional-agent-governance](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance) | Runtime governance library — six gates, 12 hard constraints, cross-session risk composition (v0.6.0), EU AI Act Art. 27 FRIA evidence | `pip install constitutional-agent` |
+| [constitutional-agent-governance](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance) | Runtime governance library — six gates, 12 hard constraints, cross-session risk composition (v0.6.0), EU AI Act Art. 27 FRIA-support evidence | `pip install constitutional-agent` |
 | [red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric) *(companion project, personal account)* | Adversarial test harness — commit-pinned OWASP Agentic v1.1 T1-T17 coverage (13 direct, 4 partial, 0 not evidenced), AIUC-1 crosswalk 19/20 testable, NIST AI 800-2 aligned. Current test count: see the repo's own count script output, not a number pinned here. | Clone and run |
 | [cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework) | Experimental self-assessment methodology — six layers, 100 points, YAML rubric, report template. Not a commercial audit. | Run on your system |
 | [dli-instrument](https://github.com/CognitiveThoughtEngine/dli-instrument) | Human-side measurement — 10-question cognitive load assessment for AI-augmented workplaces | `pip install dli-instrument` |
@@ -51,7 +51,7 @@ AI agent governance has three structurally distinct layers. The first two are we
 - 217 days of live autonomous operation in production
 - 54 registered agents, 48 active in the last 24 hours
 - 75+ constitutional amendments ratified through formal process
-- 603 adversarial tests in the companion security harness (25 stars, 5 forks)
+- Adversarial evaluation inventory, scored/informational split, and dated revision: [PubPoint Facts & Evidence](https://pubpoint.com/facts-evidence/) (companion security harness — 25 stars, 5 forks)
 - NIST CAISI acknowledged in two submissions (800-2 + Agent Identity)
 - 5 DOI-assigned preprints on Zenodo (preprints, not peer-reviewed)
 - Self-assessed against CGST framework: **63/100** (ungoverned baseline: 6/100)
@@ -74,6 +74,6 @@ Acknowledged by [NIST CAISI](https://www.nist.gov/artificial-intelligence) (2026
 
 ## Contact
 
-Constitutional Governance Review: research@cognitivethoughtengine.com
+Research questions and collaboration: research@cognitivethoughtengine.com
 
-*The governance architecture in `constitutional-agent` was extracted from live operation of [cognitivethoughtengine.com](https://www.cognitivethoughtengine.com) — the Enterprise Agent Architecture reference implementation, running 54 registered agents under constitutional governance.*
+*The governance architecture in `constitutional-agent` was extracted from HRAO-E, CTE's governed autonomous-operations reference environment, documented through [Enterprise Agent Architecture](https://cognitivethoughtengine.com/eaa/).*
