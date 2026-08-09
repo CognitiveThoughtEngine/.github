@@ -8,10 +8,11 @@
 
 | | |
 |-|-|
-| **[constitutional-agent](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance)** | The runtime library. Six constitutional gates, 12 hard constraints enforced in code. `pip install constitutional-agent` |
-| **[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** | The adversarial proof. 603 executable tests against MCP, A2A, x402/L402, decision governance — validates the gates actually hold under attack. |
-| **[cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework)** | The assessment tool. Score your agent system across six governance layers before the first incident. |
-| **[agentic-governance-papers](https://github.com/CognitiveThoughtEngine/agentic-governance-papers)** | The research base. Five preprints with assigned DOIs, full citations, NIST engagement docs. |
+| **[Enterprise Agent Architecture](https://cognitivethoughtengine.com/eaa/)** | The architecture. Authority, governance, evidence, and accountability for how enterprises run an agent workforce. |
+| **[constitutional-agent](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance)** | The runtime implementation. Six constitutional gates, 12 hard constraints enforced in code. `pip install constitutional-agent` |
+| **[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** | The adversarial evaluation companion. Sends protocol- and decision-layer attacks against stated controls and records bounded evidence about observed behavior. |
+| **[cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework)** | An experimental self-assessment methodology. Score your own agent system across six governance layers. |
+| **[PubPoint Facts & Evidence](https://pubpoint.com/facts-evidence/)** | The research record. DOI-backed papers, dated verification methods, and explicit boundaries on what the evidence does and doesn't prove. |
 
 ---
 
@@ -36,8 +37,8 @@ AI agent governance has three structurally distinct layers. The first two are we
 | Repo | Purpose | Install |
 |------|---------|---------|
 | [constitutional-agent-governance](https://github.com/CognitiveThoughtEngine/constitutional-agent-governance) | Runtime governance library — six gates, 12 hard constraints, cross-session risk composition (v0.6.0), EU AI Act Art. 27 FRIA evidence | `pip install constitutional-agent` |
-| [red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric) *(companion project, personal account)* | Adversarial test harness — 603 executable tests, commit-pinned OWASP Agentic v1.1 T1-T17 coverage (13 direct, 4 partial, 0 not evidenced), AIUC-1 crosswalk 19/20 testable, NIST AI 800-2 aligned | Clone and run |
-| [cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework) | Open scoring methodology — six layers, 100 points, YAML rubric, report template | Run on your system |
+| [red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric) *(companion project, personal account)* | Adversarial test harness — commit-pinned OWASP Agentic v1.1 T1-T17 coverage (13 direct, 4 partial, 0 not evidenced), AIUC-1 crosswalk 19/20 testable, NIST AI 800-2 aligned. Current test count: see the repo's own count script output, not a number pinned here. | Clone and run |
+| [cgst-framework](https://github.com/CognitiveThoughtEngine/cgst-framework) | Experimental self-assessment methodology — six layers, 100 points, YAML rubric, report template. Not a commercial audit. | Run on your system |
 | [dli-instrument](https://github.com/CognitiveThoughtEngine/dli-instrument) | Human-side measurement — 10-question cognitive load assessment for AI-augmented workplaces | `pip install dli-instrument` |
 | [agentic-governance-papers](https://github.com/CognitiveThoughtEngine/agentic-governance-papers) | Research hub — 5 preprints, 3 drafts, CITATIONS.bib, NIST submissions | Reference |
 
