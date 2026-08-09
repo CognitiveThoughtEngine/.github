@@ -1,6 +1,6 @@
 # Cognitive Thought Engine
 
-**We build the WHY layer for autonomous AI governance — the governance layer above identity and policy enforcement.**
+**Cognitive Thought Engine develops the runtime-governance and evidence systems behind Enterprise Agent Architecture.**
 
 ---
 
@@ -75,4 +75,4 @@ Acknowledged by [NIST CAISI](https://www.nist.gov/artificial-intelligence) (2026
 
 Constitutional Governance Review: research@cognitivethoughtengine.com
 
-*The governance architecture in `constitutional-agent` was extracted from live operation of [cognitivethoughtengine.com](https://www.cognitivethoughtengine.com) — a Decision Load Index product running 54 registered agents under constitutional governance.*
+*The governance architecture in `constitutional-agent` was extracted from live operation of [cognitivethoughtengine.com](https://www.cognitivethoughtengine.com) — the Enterprise Agent Architecture reference implementation, running 54 registered agents under constitutional governance.*
